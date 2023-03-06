@@ -1,0 +1,191 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div.logo{
+    position: absolute;
+    right: 75%;
+    top: 2%;
+}
+div.logo img{
+    width: 70px;
+}
+.titulo{
+    font-style: oblique;
+    font-family: fantasy
+}
+.persona{
+    position: absolute;
+    right: 5%;
+    bottom: 88%; 
+
+}
+div.persona img{
+    width: 50px;
+}
+.buscar{
+    position: absolute;
+    right: 32%;
+    bottom: 88%;
+}
+
+.carrito{
+    position: absolute;
+    right: 15%;
+    bottom: 87%; 
+
+}
+div.carrito img{
+    width: 50px;
+}
+div.carrito a{
+    display: contents;
+}
+
+div.menu nav{
+    background-color: #36a6e2c2;
+    margin: 0px 50px 0px 50px;
+    
+}
+div.menu ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    
+}
+div.menu li{
+    margin: 6px 120px;
+    
+}
+div.menu a{
+    display: block;
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+  font-weight: 600;
+    
+}
+
+div.menu a:hover{
+    color: white;
+}
+
+form {
+    display: flex;
+    align-items: center;
+ }
+  
+input[type="search"] {
+    border-style: inset;
+    border-color: #007bff;
+    border-radius: 20px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+    flex: 1px;
+    width: 300px;
+    padding: 10px;
+}
+  
+button[type="submit"] {
+    padding: 10px 40px;
+    margin-left: 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+button:hover{
+    color: black;
+}
+
+.nike{
+    position: absolute;
+    margin: 80px 90px;
+    border-style: groove;
+    padding: 2px;
+    border-color: darkgray;
+}
+.nike h3{
+    position: absolute;
+    right: 162px;
+    bottom: 60px;
+}
+.nike img{
+    position: absolute;
+    left: 280px;
+    bottom: 05px;
+}
+div.nike [title="estrellas"]{
+    position: absolute;
+    left: 285px;
+    top: 70px;
+}
+
+.Ia{
+    position: absolute;
+    margin: 80px 90px;
+    border-style: groove;
+    padding: 2px;
+    border-color: darkgray;
+    top: 45%;
+}
+.Ia h3{
+    position: absolute;
+    right: 194px;
+    bottom: 69px;
+}
+.Ia img{
+    position: absolute;
+    left: 300px;
+    bottom: 14px;
+}
+div.Ia [title="estrellas"]{
+    position: absolute;
+    left: 305px;
+    top: 70px;
+}
+
+.saprisa{
+    position: absolute;
+    margin: 80px 90px;
+    border-style: groove;
+    padding: 2px;
+    border-color: darkgray;
+    top: 75%;
+}
+.saprisa h3{
+    position: absolute;
+    right: 147px;
+    bottom: 70px;
+}
+.saprisa img{
+    position: absolute;
+    left: 320px;
+    bottom: 30px;
+}
+div.saprisa [title="estrellas"]{
+    position: absolute;
+    left: 325px;
+    bottom: 1px;
+}
+
+.informacion{
+    position: absolute;
+    right: 20px;
+    top: 40%;
+    margin: 80px 90px;
+    border-style: groove;
+    padding: 1%;
+    border-color: rgb(155, 162, 208);
+}
+div.informacion button{
+    width: 25%;
+    padding: 1%;
+    border-color: silver;
+    cursor: pointer;
+}
+div.informacion button:hover{
+    background-color: #828282;
+}
