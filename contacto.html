@@ -6,68 +6,98 @@
     <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=3.0, minimum-scale=1.0">
     <tagname rel="alternate"/>
     <link rel="stylesheet" href="css/contacto.css">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
+    />
     <title>Contactanos</title>
 </head>
 <body>
-
-    <div>
-        <h1 class="titulo">THE COUSINS</h1>
-        <div class="logo">
-            <img src="img/logo.png" alt="">
+    <div class="container-fluid">
+        <header class="p-4 bg-white ">
+          <div class="row mt-3 ">
+            <div class="col col-md-3 d-flex align-items-center justify-content-center">
+              <h1 class="titulo ">THE COUSINS</h1>
+              <img src="img/logo.png" class="ms-3" alt="">
+            </div>
+    
+            <div class="col col-md-1"></div>
+    
+            <div class="col col-md-5 d-flex justify-content-center align-items-center">
+              <input type="text" class="form-control buscador" id="search" placeholder="Buscar..."/>
+              <button type="button" class="btn btn-dark first-buttom text-white ms-5">Buscar</button>
+              <a href="#" class="bi bi-cart3 btn btn-secondary border-0 fs-2 mb-1 carrito bg-transparent ms-3"></a>
+              <a href="InicioSesion.html" class="bi bi-person-circle btn btn-secondary border-0 fs-2 mb-1 person bg-transparent"></a>
+            </div>
+            
+            <div class="col col-md-3"></div>
+          </div>
+        </header>
+    
+        <div class="row mt-3 shadow-sm p-2 bg-secondary ">
+          <div class="col col-md-2"></div>
+    
+          <div class="col col-md-2 fw-bold">
+            <a href="index.html" class="text-dark fs-5 text-decoration-none header-text ms-5">Inicio</a>
+    
+          </div>
+    
+          <div class="col col-md-2 fw-bold">
+            <a href="index.html" class="text-dark fs-5 text-decoration-none header-text ms-5">Compras</a>
+    
+          </div>
+    
+          <div class="col col-md-2 fw-bold">
+            <a href="#" class="text-dark fs-5 text-decoration-none header-text ms-5">Diseño</a>
+    
+          </div>
+          <div class="col col-md-2 fw-bold">
+            <a href="contacto.html" class="text-dark fs-5 text-decoration-none header-text ms-5">Feedback</a>
+    
+          </div>
+          <div class="col col-md-2"></div>
+          
+         
         </div>
-        <div class="buscar">
-            <form action="" method="get">
-                <input type="search" name="" placeholder="Buscar...">
-                <button type="submit">Buscar</button>
-            </form>   
+        <div class="container mt-4">
+            <div class="row">
+                <div class="col-md-6">
+                    <h1>Contacto</h1>
+                    <p>Si tienes alguna pregunta, comentario o sugerencia, no dudes en ponerte en contacto con nosotros. Puedes rellenar el siguiente formulario o enviarnos un correo electrónico a la dirección que aparece más abajo.</p>
+    
+                    <form action="#" method="POST">
+                        <div class="form-group">
+                            <label for="nombre">Nombre</label>
+                            <input type="text" class="form-control" id="nombre" name="nombre" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Correo electrónico</label>
+                            <input type="email" class="form-control" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="mensaje">Mensaje</label>
+                            <textarea class="form-control" id="mensaje" name="mensaje" rows="3" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Enviar</button>
+                    </form>
+                </div>
+                <div class="col-md-6">
+                    <h1>Información de contacto</h1>
+                    <p>Puedes ponerte en contacto con nosotros a través de correo electrónico o visitándonos en nuestras oficinas.</p>
+                    <ul class="list-unstyled">
+                        <li><strong>Correo electrónico:</strong> TheCousins23@gmail.com</li>
+                        <li><strong>Dirección:</strong> Esparza, del pali 25 este y 25 al norte, Puntarenas, Costa Rica</li>
+                    </ul>
+                </div>
+            </div>
         </div>
-        <div class="carrito">
-            <a href=""><img src="img/carrito.png" alt="CARRITO DE COMPRAS"></a>
-        </div>
-        <div class="persona">
-            <a href="InicioSesion.html  "><img src="img/persona.png" alt="Login"></a>
-        </div>
-    </div>
-
-    <div class="menu">
-        <nav>
-            <ul>
-              <li><a href="index.html">Inicio</a></li>
-              <li><a href="#">Compras</a></li>
-              <li><a href="#">Diseños</a></li>
-              <li><a href="#">Feedback</a></li>
-            </ul>
-        </nav>
-    </div>
-    <div>
-        <form class="formulario">
-            <h1 class="titulo2">Contactanos</h1>
-            <h5>¿Necesitas ayuda con un pedido? ¿Tienes alguna pregunta general? 
-                rellene nuestro formulario de contacto 
-                y nos pondremos en contacto con usted lo antes posible.</h5>
-            <div class="contenedor"> 
-                 <div class="input-contenedor">
-                 <i class="fas fa-envelope icon"></i>
-                 <input type="text" placeholder="Nombre"> 
-            </div>
-                 
-            <div class="input-contenedor">
-                 <i class="fas fa-key icon"></i>
-                 <input type="email" placeholder="Correo Electronico">
-            </div>
-
-            <div class="input-contenedor">
-                <i class="fas fa-key icon"></i>
-                <input type="tel" name="tel" placeholder="Numero de telefono">
-            </div>
-
-            <div class="input-contenedor">
-                <i class="fas fa-key icon"></i>
-                <textarea name="comentarios" rows="5" cols="5" placeholder="Digite el comentario"></textarea>
-            </div>
-                 <input type="submit" value="Enviar" class="button2">
-            </div>
-            </form>
-    </div>  
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>  
 </body>
 </html>

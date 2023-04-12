@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Registro de usuario</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/registro.css">
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp"
+    crossorigin="anonymous"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
+  />
+</head>
+<body>
+
+  <div class="container-fluid">
+    <header class="p-4 bg-white ">
+      <div class="row mt-3 ">
+        <div class="col col-md-3 d-flex align-items-center justify-content-center">
+          <h1 class="titulo">THE COUSINS</h1>
+          <img src="img/logo.png" class="ms-3" alt="">
+        </div>
+
+        <div class="col col-md-1"></div>
+
+        <div class="col col-md-5 d-flex justify-content-center align-items-center">
+          <input type="text" class="form-control buscador" id="search" placeholder="Buscar..."/>
+          <button type="button" class="btn btn-dark first-buttom text-white ms-5">Buscar</button>
+          <a href="#" class="bi bi-cart3 btn btn-secondary border-0 fs-2 mb-1 carrito bg-transparent ms-3"></a>
+          <a href="InicioSesion.html" class="bi bi-person-circle btn btn-secondary border-0 fs-2 mb-1 person bg-transparent"></a>
+        </div>
+        
+        <div class="col col-md-3"></div>
+      </div>
+    </header>
+
+    <div class="row mt-3 shadow-sm p-2 bg-secondary ">
+      <div class="col col-md-2"></div>
+
+      <div class="col col-md-2 fw-bold">
+        <a href="index.html" class="text-dark fs-5 text-decoration-none header-text ms-5">Inicio</a>
+
+      </div>
+
+      <div class="col col-md-2 fw-bold">
+        <a href="index.html" class="text-dark fs-5 text-decoration-none header-text ms-5">Compras</a>
+
+      </div>
+
+      <div class="col col-md-2 fw-bold">
+        <a href="#" class="text-dark fs-5 text-decoration-none header-text ms-5">Diseño</a>
+
+      </div>
+      <div class="col col-md-2 fw-bold">
+        <a href="#" class="text-dark fs-5 text-decoration-none header-text ms-5">Feedback</a>
+
+      </div>
+      <div class="col col-md-2"></div>
+      
+     
+    </div>
+
+
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-6 col-md-8">
+        <div class="card">
+          <div class="card-header">
+            <h4 class="mb-0">Registro de usuario</h4>
+          </div>
+          <div class="card-body">
+            <form>
+              <div class="form-group">
+                <label for="nombre">Nombre completo</label>
+                <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Ingrese su nombre completo" required>
+              </div>
+              <div class="form-group">
+                <label for="correo">Correo electrónico</label>
+                <input type="email" class="form-control" id="correo" name="correo" placeholder="Ingrese su correo electrónico" required>
+              </div>
+              <div class="form-group">
+                <label for="contraseña">Contraseña</label>
+                <input type="password" class="form-control" id="contraseña" name="contraseña" placeholder="Ingrese una contraseña" required>
+              </div>
+              <div class="form-group">
+                <label for="confirmar_contraseña">Confirmar contraseña</label>
+                <input type="password" class="form-control" id="confirmar_contraseña" name="confirmar_contraseña" placeholder="Confirme su contraseña" required>
+              </div>
+              <div class="form-group">
+                <button type="submit" class="btn btn-primary btn-block">Registrarse</button>
+              </div>
+            </form>
+            <a href="InicioSesion.html"><button type="submit" class="boton-segundo ">Iniciar sesion</button></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+</html>
