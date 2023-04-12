@@ -47,3 +47,15 @@ body {
     top: 2%;
 }
 
+.hover-change img:last-child {
+    display: none;
+  }
+  
+  .hover-change:hover img:first-child {
+    display: none;
+  }
+  
+  .hover-change:hover img:last-child {
+    display: block;
+  }
+
