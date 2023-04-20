@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .titulo{
+    font-style: oblique;
+    font-family: fantasy
+  }
+  
+  .first-buttom:hover {
+    background-color: #BBD3F2 !important;
+    color:black !important;
+    
+  }
+  
+  .header-text {
+    line-height: 65px;
+  }
+  
+  .header-text:hover {
+    color: #BBD3F2 !important;
+  }
+  
+  .carrito {
+    color: black !important;
+  }
+  
+  .carrito:hover {
+    color: #BBD3F2 !important;
+  }
+  
+  .buscador {
+    line-height: 50px;
+  }
+  
+  
+  .person {
+    color: black !important;
+  }
+  
+  .person:hover {
+    color: #BBD3F2 !important;
+  }
+  
+  .logo{
+    right: 82%;
+    top: 2%;
+  }
+  
+  
+  

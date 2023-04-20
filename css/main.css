@@ -49,13 +49,21 @@ body {
 
 .hover-change img:last-child {
 display: none;
+margin: auto;
 }
 
 .hover-change:hover img:first-child {
 display: none;
+margin: auto;
 }
 
 .hover-change:hover img:last-child {
 display: block;
+margin: auto;
+}
+
+.card:hover{
+    background-color: rgb(0, 0, 0);
+    color: #FFF;
 }
 
