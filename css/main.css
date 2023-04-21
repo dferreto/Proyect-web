@@ -60,10 +60,19 @@ margin: auto;
 .hover-change:hover img:last-child {
 display: block;
 margin: auto;
+object-fit: cover;
+}
+.card{
+    width: 400px;
+}
+.card img{
+    object-fit: cover;
+    width: 400px;
 }
 
-.card:hover{
+.card:hover {
     background-color: rgb(0, 0, 0);
     color: #FFF;
+    width: 400px;
 }
 
