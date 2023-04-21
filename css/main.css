@@ -75,4 +75,7 @@ object-fit: cover;
     color: #FFF;
     width: 400px;
 }
-
+.card-text{
+    width: 300px;
+    height: 100px;
+}
