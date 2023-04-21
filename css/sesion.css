@@ -34,6 +34,7 @@ justify-content: center;
 -webkit-backdrop-filter: blur(10px);
 backdrop-filter: blur(10px);
 background-color: rgba(0, 128, 255, 0.5);
+border-radius: 20px;
 
 }
 
@@ -94,7 +95,7 @@ transition: left 500ms cubic-bezier(0.175, 0.885, 0.320, 1.275);
 .contenedor__login-register form{
 width: 100%;
 padding: 80px 20px;
-background: white;
+background: rgb(190, 190, 190);
 position: absolute;
 border-radius: 20px;
 }
@@ -103,7 +104,7 @@ border-radius: 20px;
 font-size: 30px;
 text-align: center;
 margin-bottom: 20px;
-color: #46A2FD;
+color: #3a5066;
 }
 
 .contenedor__login-register form input{
@@ -111,7 +112,7 @@ width: 100%;
 margin-top: 20px;
 padding: 10px;
 border: none;
-background: #F2F2F2;
+background: #989898;
 font-size: 16px;
 outline: none;
 }
@@ -121,7 +122,7 @@ padding: 10px 40px;
 margin-top: 40px;
 border: none;
 font-size: 14px;
-background: #46A2FD;
+background: #495c6e;
 font-weight: 600;
 cursor: pointer;
 color: white;
