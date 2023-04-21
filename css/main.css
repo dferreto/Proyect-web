@@ -69,7 +69,10 @@ object-fit: cover;
 }
 .card{
     width: 400px;
+<<<<<<< HEAD
     text-align: center;
+=======
+>>>>>>> 64503ec1aac1511e7e3ef641b32abded79be38b6
 }
 .card img{
     object-fit: cover;
@@ -85,6 +88,7 @@ object-fit: cover;
     width: 300px;
     height: 100px;
 }
+<<<<<<< HEAD
 
 /* codigo para darle forma, color y tamaño a los botones dentro de la card */
 .btn-1{
@@ -224,3 +228,5 @@ object-fit: cover;
         padding: 35px 0px;
     }
 }
+=======
+>>>>>>> 64503ec1aac1511e7e3ef641b32abded79be38b6

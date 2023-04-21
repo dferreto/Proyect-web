@@ -7,11 +7,14 @@ body {
     background-attachment: fixed;
 }
 
+<<<<<<< HEAD
 .titulo{
     font-style: oblique;
     font-family: fantasy;
     color: black;
   }
+=======
+>>>>>>> 64503ec1aac1511e7e3ef641b32abded79be38b6
 
 .header-text:hover {
     color: #566da8 !important;
