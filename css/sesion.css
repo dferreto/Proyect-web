@@ -7,14 +7,11 @@ body {
     background-attachment: fixed;
 }
 
-<<<<<<< HEAD
 .titulo{
     font-style: oblique;
     font-family: fantasy;
     color: black;
   }
-=======
->>>>>>> 64503ec1aac1511e7e3ef641b32abded79be38b6
 
 .header-text:hover {
     color: #566da8 !important;
@@ -112,7 +109,7 @@ border-radius: 20px;
 font-size: 30px;
 text-align: center;
 margin-bottom: 20px;
-color: #3a5066;
+color: #303336;
 }
 
 .contenedor__login-register form input{
@@ -120,7 +117,7 @@ width: 100%;
 margin-top: 20px;
 padding: 10px;
 border: none;
-background: #989898;
+background: #bab9b9;
 font-size: 16px;
 outline: none;
 }

@@ -4,12 +4,8 @@ body {
 
 .titulo{
   font-style: oblique;
-<<<<<<< HEAD
   font-family: fantasy;
   color: black;
-=======
-  font-family: fantasy
->>>>>>> 64503ec1aac1511e7e3ef641b32abded79be38b6
 }
 
 .first-buttom:hover {
@@ -66,10 +62,7 @@ header {
 
 h1 {
   margin: 0;
-<<<<<<< HEAD
   color:black
-=======
->>>>>>> 64503ec1aac1511e7e3ef641b32abded79be38b6
 }
 
 main {
