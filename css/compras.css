@@ -315,3 +315,8 @@ top: 2%;
   }
 }
   
+
+/* Buscador */
+.filtro{
+  display: none;
+}
