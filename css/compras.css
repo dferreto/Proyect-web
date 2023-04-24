@@ -55,11 +55,7 @@ top: 2%;
   box-sizing: border-box;
   outline: none; border:none;
   text-decoration: none;
-<<<<<<< HEAD
   
-=======
-  text-transform: capitalize;
->>>>>>> e243fbed6637ad489408e3d99453ce3a91dd2ee0
   transition: all .2s linear;
 }
 
@@ -135,15 +131,9 @@ top: 2%;
 }
 
 .container .box-container .box .content .btn:hover{
-<<<<<<< HEAD
   background: radial-gradient(circle, #7ec9f5 0%,#3957ed 100%);
  border-color: white;
  color: white;
-=======
- background-color: crimson;
- border-color: crimson;
- color:#fff;
->>>>>>> e243fbed6637ad489408e3d99453ce3a91dd2ee0
 }
 
 .container .box-container .box .content .icons{
@@ -177,13 +167,8 @@ top: 2%;
 }
 
 #load-more:hover{
-<<<<<<< HEAD
  background-color: #005192;
  border-color: #005192;
-=======
- background-color: crimson;
- border-color: crimson;
->>>>>>> e243fbed6637ad489408e3d99453ce3a91dd2ee0
  color:#fff;
 }
 
@@ -212,7 +197,6 @@ top: 2%;
 }
 
 
-<<<<<<< HEAD
 /* Diseño del footer */
 .pie-pagina{
   font-family: 'Open Sans', sans-serif;
@@ -330,6 +314,4 @@ top: 2%;
       padding: 35px 0px;
   }
 }
-=======
->>>>>>> e243fbed6637ad489408e3d99453ce3a91dd2ee0
   
