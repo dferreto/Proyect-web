@@ -63,7 +63,8 @@ form.addEventListener("submit", (e) => {
     thankYou.classList.remove("disabled");
 })
 
-// Resea todo cuando le da al botoon de continuar
+// Resea todo cuando le da al botoon de continuar y 
+//Y se va al index
 buttonContinue.addEventListener("click", () => {
     form.classList.remove("disabled");
     thankYou.classList.add("disabled");
@@ -73,5 +74,5 @@ buttonContinue.addEventListener("click", () => {
     cardMonth.innerText = "00";
     cardYear.innerText = "00";
     cardCVC.innerText = "000";
-    window.location.href = "facturacion.html" , 100000
+    window.location.href = "index.html" , 100000;
 })
