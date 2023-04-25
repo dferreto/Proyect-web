@@ -86,6 +86,7 @@ top: 2%;
  display: none;
 }
 
+/* para refrescar cuando se aprete el boton de ver mas */
 .container .box-container .box:nth-child(1),
 .container .box-container .box:nth-child(2),
 .container .box-container .box:nth-child(3){
@@ -99,12 +100,13 @@ top: 2%;
  border-radius: 5px;
 }
 
+/* Ajusta un poco la imagen */
 .container .box-container .box .image img{
  height: 100%;
  width: 100%;
  object-fit: cover;
 }
-
+/* Ajusta un poco la imagen */
 .container .box-container .box:hover .image img{
  transform: scale(1.1);
  object-fit: cover;
@@ -121,7 +123,7 @@ top: 2%;
  line-height: 2;
  padding:15px 0;
 }
-
+/* Ajusta un poco el botton */
 .container .box-container .box .content .btn{
  display: inline-block;
  padding:10px 30px;
@@ -155,6 +157,7 @@ top: 2%;
  padding-right: 5px;
 }
 
+/* Ajusta un poco el botton de load-more que seria el de ver mas */
 #load-more{
  margin-top: 20px;
  display: inline-block;
@@ -171,7 +174,7 @@ top: 2%;
  border-color: #005192;
  color:#fff;
 }
-
+/*Para hacer la pagina responsiva */
 @media (max-width:450px){
 
  .container .heading{
@@ -321,5 +324,5 @@ top: 2%;
   display: none;
 }
 
-/* Carrito */
+
 
