@@ -1,0 +1,265 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.titulo{
+    font-style: oblique;
+    font-family: fantasy;
+   
+    
+}
+
+.first-buttom:hover {
+    background-color: #BBD3F2 !important;
+    color:black !important;
+    
+  }
+
+.header-text {
+    line-height: 65px;
+}
+
+.header-text:hover {
+    color: #BBD3F2 !important;
+}
+
+.carrito {
+    color: black !important;
+}
+
+.carrito:hover {
+    color: #BBD3F2 !important;
+}
+
+.buscador {
+    line-height: 50px;
+}
+
+
+.person {
+    color: black !important;
+}
+
+.person:hover {
+    color: #BBD3F2 !important;
+}
+
+.logo{
+    right: 82%;
+    top: 2%;
+}
+
+
+/* Diseño del footer */
+.pie-pagina{
+    font-family: 'Open Sans', sans-serif;
+    width: 100%;
+   
+}
+
+/* Agrupacion del footer a la izquierda */
+.pie-pagina .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+}
+
+/* Posicionamiento del logo en el footer */
+.pie-pagina .grupo-1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Diseño del tamaño de las letras en el footer */
+.pie-pagina .grupo-1 .box h2{
+    color: #FFF;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+
+.pie-pagina .grupo-1 .box h1{
+    color: #FFF;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+
+.pie-pagina .grupo-1 .box p{
+    color: #efefef;
+    margin-bottom: 10px;
+}
+
+/* Diseño de las redes sociales aplicando un background y posicionamiento para ordenarlas, además de un resaltado  */
+.pie-pagina .grupo-1 .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #FFF;
+    margin-right: 10px;
+    background-color: #3B4045;
+    text-align: center;
+    transition: all 300mx ease;
+}
+
+/* Lista de color en los hover a la hora de posicionarse */
+.pie-pagina .grupo-1 .red-social .facebook:hover {
+    background-color: #4267B2;
+}
+
+.pie-pagina .grupo-1 .red-social .instagram:hover {
+    background: radial-gradient(circle at 33% 100%, #fed373 4%,
+    #f15245 30%, #d92e7f 62%, #9b36b7 85%, #515ecf);
+}
+
+.pie-pagina .grupo-1 .red-social .twitter:hover {
+    background-color: #1DA1F2;
+}
+
+.pie-pagina .grupo-1 .red-social .youtube:hover {
+    background-color: #C4302B;
+}
+
+/* Le da un resaltado y transformacion a las redes sociales dandole un acabado de color y escalado */
+.pie-pagina .grupo-1 .red-social a:hover{
+    transform: translateY(-3px) scale(1.05);
+    box-shadow: 0 5px 5px 0px rgba(0, 0, 0, 0.4);
+    fill: none;
+}
+
+
+/* Diseño del grupo 2 */
+.pie-pagina .grupo-2{
+    background-color: #3B4045;
+    padding: 15px 10px;
+    text-align: center;
+    color: #FFF;
+}
+
+/* Tamaño de la fuente en dicho grupo */
+.pie-pagina .grupo-2 small{
+    font-size: 15px;
+}
+
+/* Aplicando responsividad en el footer */
+@media  screen and (max-width: 800px){
+    .pie-pagina .grupo-1{
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+        padding: 35px 0px;
+    }
+}
+
+
+#cart-container{
+    overflow-x: auto;
+}
+
+#cart-container table{
+    border-collapse: collapse;
+    width: 100%;
+    table-layout: fixed;
+    white-space: nowrap;
+}
+
+#cart-container table thead{
+    font-weight: 700;
+}
+
+#cart-container table thead td{
+    background: #BBD3F2;
+    color: black;
+    border: none;
+    padding: 6px 0;
+}
+
+#cart-container table td{
+   border: 1px solid #b6b3b3;
+   text-align: center;
+}
+
+#cart-container table td:nth-child(1){
+    width: 100px;
+ }
+
+ #cart-container table td:nth-child(2),
+ #cart-container table td:nth-child(3){
+    width: 200px;
+ }
+
+ #cart-container table td:nth-child(4),
+ #cart-container table td:nth-child(5),
+ #cart-container table td:nth-child(6){
+    width: 170px;
+ }
+
+ #cart-container table tbody img{
+    width: 100px;
+    height: 80px;
+    object-fit: cover;
+ }
+
+ #cart-container table tbody i{
+    color: #8d8c89;
+ }
+
+ #cart-container table tbody i:hover{
+    color:#515ecf;
+ }
+
+ #cart-bottom .coupon>div,
+ #cart-bottom .total>div{
+    border: 1px solid #b6b3b3;
+ }
+
+ #cart-bottom .coupon h5,
+ #cart-bottom .total h5{
+    background: #BBD3F2;
+    color: black;
+    border: none;
+    padding: 6px 12px;
+    font-weight: 700;
+ }
+
+ #cart-bottom .coupon p,
+ #cart-bottom .coupon input{
+    padding: 0 12px;
+ }
+
+ #cart-bottom .coupon input{
+    height: 44px;
+ }
+
+ #cart-bottom .coupon input,
+ #cart-bottom .coupon button{
+  
+    margin: 0 0 6px 12px;
+ }
+
+ #cart-bottom .total div>div{
+    padding: 0 12px;
+ }
+
+ #cart-bottom .total h6{
+    color: #2a2a2a;
+ }
+
+ .second-hr{
+    background: #b8b7b3;
+    width: 100%;
+    height: 1px;
+ }
+
+ #cart-bottom .total div>button{
+    margin: 0 12px 20px 0;
+    display: flex;
+    justify-content: flex-end;
+ }
